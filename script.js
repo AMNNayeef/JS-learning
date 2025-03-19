@@ -161,6 +161,6 @@ if (day === 'Monday') {
 } else if (day === 'Saturday' || day === 'Sunday') {
     console.log('Enjoy the Weekend');
 } else {
-    console.log('Not a valid day !');
+    console.log('Not a valid day !')
 }
 
