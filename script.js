@@ -107,16 +107,60 @@ console.log(typeof 'Jonas');*/
 // }
 
 //Bonus1
-const scoreDolphins = (97 + 112 + 81) / 3;
-const scoreKoalas = (109 + 95 + 86) / 3;
-console.log(scoreDolphins, scoreKoalas)
+// const scoreDolphins = (97 + 112 + 81) / 3;
+// const scoreKoalas = (109 + 95 + 86) / 3;
+// console.log(scoreDolphins, scoreKoalas)
 
-if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
-    console.log('Dolphins win the trophy');
-} else if (scoreKoalas > scoreDolphins) {
-    console.log('Koalas win the trophy');
-} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
-    console.log('Both win the trophy');
+// if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+//     console.log('Dolphins win the trophy');
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+//     console.log('Both win the trophy');
+// } else {
+//     console.log("No one wins the trophy");
+// }
+
+
+const day = 'Sunday';
+
+// switch (day) {
+//     case 'monday': // day=='monday'
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('Prepare theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'friday':
+//         console.log('Record Videos');
+//         break;
+//     case 'Saturday':
+//     case 'Sunday':
+//         console.log('Enjoy the Weekend');
+//         break;
+//     default:
+//         console.log('Not a valid day !');
+// }
+
+// challange : use if else
+
+if (day === 'Monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'Tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'Wednesday' || day === 'Thursday') {
+    console.log('Write code examples');
+} else if (day === 'Friday') {
+    console.log('Record Videos');
+} else if (day === 'Saturday' || day === 'Sunday') {
+    console.log('Enjoy the Weekend');
 } else {
-    console.log("No one wins the trophy");
+    console.log('Not a valid day !');
 }
+
