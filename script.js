@@ -59,11 +59,11 @@ console.log(typeof 'Jonas');*/
 // console.log(n);
 
 
-const hasDriverLicense = true;
-const hasGoodVision = true;
-console.log(hasDriverLicense && hasGoodVision);
-console.log(hasDriverLicense || hasGoodVision);
-console.log(!hasDriverLicense);
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
 
 
 // if (hasDriverLicense && hasGoodVision) {
@@ -72,11 +72,51 @@ console.log(!hasDriverLicense);
 //     console.log('Someone else should Drive....');
 // }
 
-const isTired = false;
-console.log(hasDriverLicense && hasGoodVision && isTired)
+// const isTired = false;
+// console.log(hasDriverLicense && hasGoodVision && isTired)
 
-if (hasDriverLicense && hasGoodVision && !isTired) {
-    console.log('Sarah is able to drive');
+// if (hasDriverLicense && hasGoodVision && !isTired) {
+//     console.log('Sarah is able to drive');
+// } else {
+//     console.log('Someone else should Drive....');
+// }
+
+
+//Challange 3
+// 1. Calculate the average score for each team, using the test data included below. The average score for Dolphins should be assigned to the scoreDolphins variable, and the average score of Koalas should be assigned to the scoreKoalas variable.
+
+// 2. Compare the team's average scores to determine the winner of the competition, and print to the console:
+
+// "Dolphins win the trophy" if Dolphins win, or
+
+// "Koalas win the trophy" if Koalas win, or
+
+// "Both win the trophy" if their average scores are equal.
+
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas)
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log('Dolphins win the trophy');
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log('Koalas win the trophy');
+// } else if (scoreDolphins === scoreKoalas) {
+//     console.log('Both win the trophy');
+// }
+
+//Bonus1
+const scoreDolphins = (97 + 112 + 81) / 3;
+const scoreKoalas = (109 + 95 + 86) / 3;
+console.log(scoreDolphins, scoreKoalas)
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+    console.log('Dolphins win the trophy');
+} else if (scoreKoalas > scoreDolphins) {
+    console.log('Koalas win the trophy');
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+    console.log('Both win the trophy');
 } else {
-    console.log('Someone else should Drive....');
+    console.log("No one wins the trophy");
 }
