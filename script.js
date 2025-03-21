@@ -34,7 +34,7 @@ console.log(typeof 'Jonas');*/
 // const birthYear = 1991;
 
 // var job = 'programmer';
-// job = 'teacher'; 
+// job = 'teacher';
 
 
 // // type conversion
@@ -122,7 +122,7 @@ console.log(typeof 'Jonas');*/
 // }
 
 
-const day = 'Sunday';
+// const day = 'Sunday';
 
 // switch (day) {
 //     case 'monday': // day=='monday'
@@ -149,18 +149,34 @@ const day = 'Sunday';
 
 // challange : use if else
 
-if (day === 'Monday') {
-    console.log('Plan course structure');
-    console.log('Go to coding meetup');
-} else if (day === 'Tuesday') {
-    console.log('Prepare theory videos');
-} else if (day === 'Wednesday' || day === 'Thursday') {
-    console.log('Write code examples');
-} else if (day === 'Friday') {
-    console.log('Record Videos');
-} else if (day === 'Saturday' || day === 'Sunday') {
-    console.log('Enjoy the Weekend');
-} else {
-    console.log('Not a valid day !');
-}
+// if (day === 'Monday') {
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+// } else if (day === 'Tuesday') {
+//     console.log('Prepare theory videos');
+// } else if (day === 'Wednesday' || day === 'Thursday') {
+//     console.log('Write code examples');
+// } else if (day === 'Friday') {
+//     console.log('Record Videos');
+// } else if (day === 'Saturday' || day === 'Sunday') {
+//     console.log('Enjoy the Weekend');
+// } else {
+//     console.log('Not a valid day !');
+// }
 
+const age = 19;
+// age >= 18 ? console.log('I like to drink wine') :
+// console.log('I like to drink water'); 
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'wine';
+} else {
+    drink2 = 'water';
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
